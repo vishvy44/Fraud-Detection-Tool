@@ -1,0 +1,32 @@
+imp links --
+1. https://support.singular.net/hc/en-us/articles/360028539992-Configuring-User-Defined-Fraud-Rules
+2. https://www.appsflyer.com/mobile-fraud-glossary/
+3. https://clickky.biz/blog/2016/12/mobile-ad-fraud-definition-types-detection/
+
+Appsflyer and Singular is implemented. 
+
+**Important - - Pass more than one country codes with a sapce.
+
+
+A.Appsflyer
+Fraud Rules-
+1. Click Injection - any install that comes in before 15 seconds of the click.
+2. Click Spamming- Site IDs with less than 75% installs occurring between 10sec and 2 hours of the clicks are flagged and all installs coming from that Site ID would be rejected.(Minimum install 30)
+3. Apk version -- user input (if older then fraud)
+4. SDK version -- user input(if older then fraud)
+5. OS version-- user input(if older then fraud)
+6. Country Mismatch check (based on user input)
+
+B. Branch
+
+C. Affyse
+1. OS Version-- user input 
+
+D. Singular
+1. Click Injection - any install that comes in before 15 seconds of the click.
+2. Click Spamming- Site IDs with less than 75% installs occurring between 10sec and 2 hours of the clicks are flagged and all installs coming from that Site ID would be rejected.(Minimum install 30)
+3. OS version-- user input(if older then fraud)
+
+
+
+
